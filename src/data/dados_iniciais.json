@@ -1,0 +1,189 @@
+{
+  "categorias": [
+    {
+      "titulo": "COZINHA",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "purple",
+      "link_extra": {
+        "text": "Violão | Guitarra | Baixo | Teclado/Piano",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Conheça o Theremin o instrumento tocado com a mente! #Eletrofone",
+          "url": "https://www.youtube.com/watch?v=LYSGTkNtazo"
+        },
+        {
+          "titulo": "I FOUND MY DREAM GUITAR",
+          "url": "https://www.youtube.com/watch?v=O50M394UwZI"
+        },
+        {
+          "titulo": "24 STRINGS BASS SOLO (EPIC)",
+          "url": "https://www.youtube.com/watch?v=ggNRXu1avDk"
+        },
+        {
+          "titulo": "My guest solo on Kiko Loureiro's new album",
+          "url": "https://www.youtube.com/watch?v=sVDa1d8bEIQ"
+        },
+        {
+          "titulo": "BOHEMIAN RHAPSODY ( complete piano solo cover ) - Franz Ventura",
+          "url": "https://www.youtube.com/watch?v=oLMJQ01Tvr4"
+        },
+        {
+          "titulo": "10 Músicas que Marcaram a Infância por Fabio Lima",
+          "url": "https://www.youtube.com/watch?v=-Y7aJtyZ36c"
+        },
+        {
+          "titulo": "NAMM 2020 Jesus Molina Nord Booth Performances",
+          "url": "https://www.youtube.com/watch?v=vCPuUn6URn4"
+        },
+        {
+          "titulo": "Um Café Lá em Casa com Yamandu Costa e Nelson Faria",
+          "url": "https://www.youtube.com/watch?v=e71vYOykA94"
+        }        
+      ]
+    },
+    {
+      "titulo": "CORDAS",
+      "cor": "green",
+      "link_extra": {
+        "text": "Violino | Viola | Violoncello | Baixo",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Pagagnini. Canon de Pachelbel",
+          "url": "https://www.youtube.com/watch?v=tNgkxyMMfiE"
+        },
+        {
+          "titulo": "2CELLOS - Thunderstruck",
+          "url": "https://www.youtube.com/watch?v=uT3SBzmDxGk"
+        },
+        {
+          "titulo": "Villa-Lobos: Prelúdio from Bachianas Brasileiras n. 4",
+          "url": "https://www.youtube.com/watch?v=wD17RsKSsfs"
+        },
+        {
+          "titulo": "J.S. Bach Cello Suite no.1",
+          "url": "https://www.youtube.com/watch?v=wISN_hJSCPE"
+        }, 
+        {
+          "titulo": "Tchaikovsky: Ouverture 1812 | Prinsengrachtconcert 2013",
+          "url": "https://www.youtube.com/watch?v=1KzF1KgaREo"
+        }
+      ]
+    },
+    {
+      "titulo": "METAIS",
+      "cor": "brown",
+      "link_extra": {
+        "text": "Família dos Metais",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "The Chicken - Jaco Pastorius",
+          "url": "https://www.youtube.com/watch?v=yJ1rC-Q9v1o"
+        },
+        {
+          "titulo": "Blues - Wynton Marsalis Septet at Jazz in Marciac 2015",
+          "url": "https://www.youtube.com/watch?v=ATajmT5BD6M"
+        },
+        {
+          "titulo": "The Avengers Main Theme - Horn Cover",
+          "url": "https://www.youtube.com/watch?v=NqCL6Rn8g1Q"
+        },
+        {
+          "titulo": "(the Oven Kid) Timmy Trumpet - Freaks",
+          "url": "https://www.youtube.com/watch?v=CgHW02YF50s"
+        }
+      ]
+    },
+    {
+      "titulo": "MADEIRA",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Família das Madeiras",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "(DANCE MONKEY) - STREET SAX PERFORMANCE",
+          "url": "https://www.youtube.com/watch?v=XBWyE1v8--I"
+        },
+        {
+          "titulo": "BEATBoX SAX -(Stand By Me)- Solo Sax and Voice (no overdubs)",
+          "url": "https://www.youtube.com/watch?v=23I8OtXCs3o"
+        },
+        {
+          "titulo": "Abel Ferreira : Chorando baixinho (choro)",
+          "url": "https://www.youtube.com/watch?v=WphI8IeaQ34"
+        },
+        {
+          "titulo": "Indiara Sfair & Arthur Sowinski - Improvisation in Cm",
+          "url": "https://www.youtube.com/watch?v=uIss2Qmmc5k"
+        }
+      ]
+    },
+    {
+      "titulo": "PERCUSÃO",
+      "cor": "red",
+      "link_extra": {
+        "text": "Instrumentos de Percussão",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Legend of Zelda - Main Theme on Marimba",
+          "url": "https://www.youtube.com/watch?v=qYtrnr4chfU"
+        },
+        {
+          "titulo": "Hang Massive - Once Again",
+          "url": "https://www.youtube.com/watch?v=xk3BvNLeNgw"
+        },
+        {
+          "titulo": "Bruno Valverde - Kiko Loureiro's Gray Stone Gateway",
+          "url": "https://www.youtube.com/watch?v=nywKf3R4m4M"
+        },
+        {
+          "titulo": "Merry Go Round of Life - Howl's Moving Castle",
+          "url": "https://www.youtube.com/watch?v=Y1pwnMcLnwo"
+        },
+        {
+          "titulo": "Daniel Glass - Drum Solo from The Century Project",
+          "url": "https://www.youtube.com/watch?v=V8VRloG_154"
+        }
+      ]
+    },
+    {
+      "titulo": "ELETRÔNICO",
+      "cor": "blue",
+      "link_extra": {
+        "text": "Instrumentos Eletrônicos",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Conheça o Theremin o instrumento tocado com a mente!",
+          "url": "https://www.youtube.com/watch?v=LYSGTkNtazo"
+        },
+        {
+          "titulo": "M4SONIC - Virus",
+          "url": "https://www.youtube.com/watch?v=yXLL46xkdlY"
+        },
+        {
+          "titulo": "Performance Mix - EDM, House, Reggaeton",
+          "url": "https://www.youtube.com/watch?v=4RYpZxDwWKs"
+        },
+        {
+          "titulo": "Eloy Casagrande - SOLO",
+          "url": "https://www.youtube.com/watch?v=MgQ0V2NmmYM"
+        },
+        {
+          "titulo": "Imagine Dragons - Believer [NSG Remix]",
+          "url": "https://www.youtube.com/watch?v=ut6LgkKjrSY"
+        }
+      ]
+    }
+  ]
+}
