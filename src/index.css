@@ -5,17 +5,17 @@
 
 :root {
   --primary: #dc1a28;
-  --black: #141414;
+  --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
-  --grayMedium: #e5e5e5; 
+  --grayMedium: #e5e5e5;
+  --grayDark: #141414; 
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -25,7 +25,7 @@ a {
 }
 
 #root {
-  min-height: calc(100vh - var(--bodyPaddingTop));
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }

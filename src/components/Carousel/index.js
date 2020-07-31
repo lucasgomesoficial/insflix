@@ -19,7 +19,7 @@ function Carousel({
             {categoryTitle}
           </Title>
           {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
+            <ExtraLink href={categoryExtraLink.url}>
               {categoryExtraLink.text}  
             </ExtraLink>
           }
