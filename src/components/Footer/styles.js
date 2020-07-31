@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const FooterBase = styled.footer`
   background: var(--grayDark);
   border-top: 1px solid rgba(89, 10, 16, .8);

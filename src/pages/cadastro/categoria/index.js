@@ -1,50 +1,83 @@
-import React, { useState} from 'react';
+/* eslint-disable linebreak-style */
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const initialValue = {
     name: '',
     description: '',
     color: '',
-  }
+  };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(initialValue);
-
 
   function setValue(key, value) {
     setValues({
       ...values,
       [key]: value,
-    })
+    });
   }
 
   function HandlerChange(Event) {
     // const { getAttribute, value } = Event.target;
     setValue(
       Event.target.getAttribute('name'),
-      Event.target.value
+      Event.target.value,
     );
   }
 
+  useEffect(() => {
+    console.log('Aeeeeeeeeeeeeeeeeees');
+    const URL = 'http://localhost:8080/categorias';
+    fetch(URL)
+      .then(async (requestServer) => {
+        const resquest = await requestServer.json();
+        setCategorias([
+          ...resquest,
+        ]);
+      });
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       id: 1,
+    //       name: 'Bass',
+    //       description: 'EPIC Bass',
+    //       color: '#cbd1ff',
+    //     },
+    //     {
+    //       id: 2,
+    //       name: 'Bass Again',
+    //       description: 'EPIC Bass Monster',
+    //       color: '#cbd1ff',
+    //     },
+    //   ]);
+    // }, 3 * 1000);
+  }, []);
+
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {values.name}</h1>
+      <h1>
+        Cadastro de Categoria:
+        {values.name}
+      </h1>
 
       <form onSubmit={function handleSubmit(Event) {
         Event.preventDefault();
         setCategorias([
           ...categorias,
-          values
+          values,
         ]);
 
-        setValues(initialValue)
-      }}>
-        
+        setValues(initialValue);
+      }}
+      >
+
         <FormField
           label="Categoria"
-          type="text"
           name="name"
           value={values.name}
           onChange={HandlerChange}
@@ -57,18 +90,6 @@ function CadastroCategoria() {
           value={values.description}
           onChange={HandlerChange}
         />
-        
-        {/* <div>
-          <label>
-            Descrição:
-            <textarea
-              type="text"
-              value={values.description}
-              name="description"
-              onChange={HandlerChange}
-            />
-          </label>
-        </div> */}
 
         <FormField
           label="Cor"
@@ -78,26 +99,30 @@ function CadastroCategoria() {
           onChange={HandlerChange}
         />
 
-        <button>
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
-      
+
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria}${indice}`}>
-              {categoria.name}
-            </li>
-          )
-        })}
+        {categorias.map((categoria) => (
+          <li key={`${categoria.nome}`}>
+            {categoria.name}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">
         Ir para home
       </Link>
     </PageDefault>
-  )
+  );
 }
 
 export default CadastroCategoria;

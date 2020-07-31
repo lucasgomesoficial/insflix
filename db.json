@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "name": "Bass",
+            "description": "EPIC Bass",
+            "color": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "name": "Bass Again",
+            "description": "EPIC Bass Monster",
+            "color": "#cbd1ff"
+        }
+    ]
+}
