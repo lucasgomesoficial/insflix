@@ -7,7 +7,7 @@ const Main = styled.main`
     background-color: var(--grayDark);
     color: var(--white);
     flex: 1;
-    padding: 50px 5% 0 5%;
+    padding: 100px 5% 0 5%;
 `;
 
 function PageDefault({ children }) {

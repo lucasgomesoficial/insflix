@@ -13,10 +13,11 @@ const Container = styled.ul`
     margin: auto;
     width: 30px;
     height: 30px;
+    z-index: 2;
     transform: initial;
     
     &:before {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
   
@@ -24,7 +25,7 @@ const Container = styled.ul`
     left: 0;
   }
   .slick-next {
-    right: 16px;
+    right: 50px;
   }
 `;
 
@@ -43,7 +44,7 @@ const Slider = ({ children }) => (
   <Container>
     <SlickSlider {...{
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       centerMode: false,
       variableWidth: true,

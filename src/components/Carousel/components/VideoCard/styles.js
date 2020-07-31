@@ -16,8 +16,8 @@ export const VideoCardContainer = styled.a`
   padding: 16px;
   position: relative;
   text-decoration: none;
-
   transition: opacity .3s;
+
   &:hover,
   &:focus {
     opacity: .5;
@@ -25,9 +25,5 @@ export const VideoCardContainer = styled.a`
   
   &:not(:first-child) {
     margin-left: 20px;
-  }
-
-  @media (max-width: 800px) {
-    
   }
 `;
