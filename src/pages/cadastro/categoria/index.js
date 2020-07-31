@@ -32,7 +32,9 @@ function CadastroCategoria() {
   useEffect(() => {
     // eslint-disable-next-line no-console
     console.log('Aeeeeeeeeeeeeeeeeees');
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.href.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://insflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (requestServer) => {
         const resquest = await requestServer.json();
@@ -40,23 +42,6 @@ function CadastroCategoria() {
           ...resquest,
         ]);
       });
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       name: 'Bass',
-    //       description: 'EPIC Bass',
-    //       color: '#cbd1ff',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'Bass Again',
-    //       description: 'EPIC Bass Monster',
-    //       color: '#cbd1ff',
-    //     },
-    //   ]);
-    // }, 3 * 1000);
   }, []);
 
   return (
