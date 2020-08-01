@@ -1,16 +1,262 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "name": "Bass",
-            "description": "EPIC Bass",
-            "color": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "name": "Bass Again",
-            "description": "EPIC Bass Monster",
-            "color": "#cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "COZINHA",
+      "cor": "purple",
+      "link_extra": {
+        "text": "Violão | Guitarra | Baixo | Teclado/Piano",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "CORDAS",
+      "cor": "green",
+      "link_extra": {
+        "text": "Violino | Viola | Violoncello | Baixo",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "METAIS",
+      "cor": "brown",
+      "link_extra": {
+        "text": "Família dos Metais",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "MADEIRA",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Família das Madeiras",
+        "url": ""
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "PERCUSÃO",
+      "cor": "red",
+      "link_extra": {
+        "text": "Instrumentos de Percussão",
+        "url": ""
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "ELETRÔNICO",
+      "cor": "blue",
+      "link_extra": {
+        "text": "Instrumentos Eletrônicos",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Conheça o Theremin o instrumento tocado com a mente! #Eletrofone",
+      "url": "https://www.youtube.com/watch?v=LYSGTkNtazo"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "I FOUND MY DREAM GUITAR",
+      "url": "https://www.youtube.com/watch?v=O50M394UwZI"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "24 STRINGS BASS SOLO (EPIC)",
+      "url": "https://www.youtube.com/watch?v=ggNRXu1avDk"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "My guest solo on Kiko Loureiro's new album",
+      "url": "https://www.youtube.com/watch?v=sVDa1d8bEIQ"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "BOHEMIAN RHAPSODY ( complete piano solo cover ) - Franz Ventura",
+      "url": "https://www.youtube.com/watch?v=oLMJQ01Tvr4"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "10 Músicas que Marcaram a Infância por Fabio Lima",
+      "url": "https://www.youtube.com/watch?v=-Y7aJtyZ36c"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "NAMM 2020 Jesus Molina Nord Booth Performances",
+      "url": "https://www.youtube.com/watch?v=vCPuUn6URn4"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Pagagnini. Canon de Pachelbel",
+      "url": "https://www.youtube.com/watch?v=tNgkxyMMfiE"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "2CELLOS - Thunderstruck",
+      "url": "https://www.youtube.com/watch?v=uT3SBzmDxGk"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Villa-Lobos: Prelúdio from Bachianas Brasileiras n. 4",
+      "url": "https://www.youtube.com/watch?v=wD17RsKSsfs"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "J.S. Bach Cello Suite no.1",
+      "url": "https://www.youtube.com/watch?v=wISN_hJSCPE"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Tchaikovsky: Ouverture 1812 | Prinsengrachtconcert 2013",
+      "url": "https://www.youtube.com/watch?v=1KzF1KgaREo"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "The Chicken - Jaco Pastorius",
+      "url": "https://www.youtube.com/watch?v=yJ1rC-Q9v1o"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Blues - Wynton Marsalis Septet at Jazz in Marciac 2015",
+      "url": "https://www.youtube.com/watch?v=ATajmT5BD6M"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "The Avengers Main Theme - Horn Cover",
+      "url": "https://www.youtube.com/watch?v=NqCL6Rn8g1Q"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "(the Oven Kid) Timmy Trumpet - Freaks",
+      "url": "https://www.youtube.com/watch?v=CgHW02YF50s"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "(DANCE MONKEY) - STREET SAX PERFORMANCE",
+      "url": "https://www.youtube.com/watch?v=XBWyE1v8--I"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "BEATBoX SAX -(Stand By Me)- Solo Sax and Voice (no overdubs)",
+      "url": "https://www.youtube.com/watch?v=23I8OtXCs3o"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Abel Ferreira : Chorando baixinho (choro)",
+      "url": "https://www.youtube.com/watch?v=WphI8IeaQ34"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Indiara Sfair & Arthur Sowinski - Improvisation in Cm",
+      "url": "https://www.youtube.com/watch?v=uIss2Qmmc5k"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Legend of Zelda - Main Theme on Marimba",
+      "url": "https://www.youtube.com/watch?v=qYtrnr4chfU"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Hang Massive - Once Again",
+      "url": "https://www.youtube.com/watch?v=xk3BvNLeNgw"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Bruno Valverde - Kiko Loureiro's Gray Stone Gateway",
+      "url": "https://www.youtube.com/watch?v=nywKf3R4m4M"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Daniel Glass - Drum Solo from The Century Project",
+      "url": "https://www.youtube.com/watch?v=V8VRloG_154"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Merry Go Round of Life - Howl's Moving Castle",
+      "url": "https://www.youtube.com/watch?v=Y1pwnMcLnwo"
+    },
+    {
+      "id": 26,
+      "categoriaId": 1,
+      "titulo": "Um Café Lá em Casa com Yamandu Costa e Nelson Faria",
+      "url": "https://www.youtube.com/watch?v=e71vYOykA94"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Conheça o Theremin o instrumento tocado com a mente!",
+      "url": "https://www.youtube.com/watch?v=LYSGTkNtazo"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "M4SONIC - Virus",
+      "url": "https://www.youtube.com/watch?v=yXLL46xkdlY"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Performance Mix - EDM, House, Reggaeton",
+      "url": "https://www.youtube.com/watch?v=4RYpZxDwWKs"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Eloy Casagrande - SOLO",
+      "url": "https://www.youtube.com/watch?v=MgQ0V2NmmYM"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Imagine Dragons - Believer [NSG Remix]",
+      "url": "https://www.youtube.com/watch?v=ut6LgkKjrSY"
+    },
+    {
+      "titulo": "New York Jazz • Jazz Saxophone Instrumental Music",
+      "url": "https://www.youtube.com/watch?v=ApHL4mVUln0",
+      "categoriaId": 4,
+      "id": 32
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bIJ1KBOdbX8",
+      "categoriaId": 3,
+      "id": 33
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jOUIQ3siUPY",
+      "categoriaId": 4,
+      "id": 34
+    }
+  ]
 }

@@ -4,10 +4,10 @@ export const FooterBase = styled.footer`
   background: var(--grayDark);
   border-top: 1px solid rgba(89, 10, 16, .8);
   color: var(--white);
-  font-size: 14px; 
-  margin-top: 100px;
+  font-size: 14px;
   padding: 20px 0 10px;
   text-align: center;
+  z-index: 8;
 
   @media (max-width: 800px) {
     font-size: 10px;

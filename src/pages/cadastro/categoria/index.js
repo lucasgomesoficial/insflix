@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const initialValue = {
@@ -11,27 +12,13 @@ function CadastroCategoria() {
     description: '',
     color: '',
   };
+
+  const { values, HandlerChange, ClearForm } = useForm(initialValue);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(initialValue);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function HandlerChange(Event) {
-    // const { getAttribute, value } = Event.target;
-    setValue(
-      Event.target.getAttribute('name'),
-      Event.target.value,
-    );
-  }
 
   useEffect(() => {
     // eslint-disable-next-line no-console
-    console.log('Aeeeeeeeeeeeeeeeeees');
     const URL = window.location.href.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://insflix.herokuapp.com/categorias';
@@ -47,7 +34,7 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria:
+        Cadastro de Categoria:&nbsp;
         {values.name}
       </h1>
 
@@ -58,7 +45,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(initialValue);
+        ClearForm();
       }}
       >
 
@@ -98,8 +85,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.name}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>

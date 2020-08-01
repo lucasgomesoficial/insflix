@@ -13,7 +13,7 @@ const Container = styled.ul`
     margin: auto;
     width: 30px;
     height: 30px;
-    z-index: 2;
+    z-index: 5;
     transform: initial;
     
     &:before {
@@ -56,4 +56,4 @@ const Slider = ({ children }) => (
   </Container>
 );
 
-export default Slider; 
+export default Slider;
